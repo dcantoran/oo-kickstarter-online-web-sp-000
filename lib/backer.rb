@@ -9,7 +9,7 @@ class Backer
   
   def back_project(project)
     backed_projects << project 
-    pj = Project.new 
+    pj = Project.new(title)
     backed_projects << pj
     # binding.pry 
   end 
